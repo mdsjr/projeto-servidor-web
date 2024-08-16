@@ -7,13 +7,9 @@ Uma conta na Amazon Web Services (AWS)
 Conhecimento básico sobre o serviço Amazon EC2  
 Como usar  
 
-#Escolha o servidor web:  
 
-Para usar o Apache, selecione o arquivo user-data-apache.sh.  
-Para usar o Nginx, selecione o arquivo user-data-nginx.sh.  
-Crie uma instância EC2:  
   
-Acesse o console da AWS e navegue até o serviço EC2.  
+# Acesse o console da AWS e navegue até o serviço EC2.  
 Clique em "Lançar instância".  
 Selecione a AMI "Amazon Linux 2023".  
 Escolha o tipo de instância desejado.  
@@ -34,5 +30,6 @@ Abra um navegador web e digite o seguinte endereço:
 http://<endereço_ip_público>  
 Você deverá ver a página web que você criou no script de User Data.  
  
-Testando localmente (na instância EC2)  
+Testando localmente (na instância EC2)   
+
 Apache: curl http://localhost ou abra http://localhost no navegador.  
