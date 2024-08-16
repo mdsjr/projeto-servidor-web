@@ -22,6 +22,8 @@ Obtenha o endereço IP público da instância na seção "Instâncias" do consol
 Abra um navegador web e digite o seguinte endereço:  
 
 http://<endereço_ip_público>  
+![image](https://github.com/user-attachments/assets/647cd9e1-b8ef-42bb-93d0-5e134ce14722)
+
 
 Você deverá ver a página web que você criou no script de User Data.  
  
